@@ -67,6 +67,11 @@
             $("button").click(function () {
                 $(".square:first").clone().appendTo(".box");
             });
+            //Done by Eddison
+            $("button").click(function(){
+                $(".square").clone().appendTo(".box");
+                $(".square").toggleClass("main");
+            });
 
         });
     </script>
